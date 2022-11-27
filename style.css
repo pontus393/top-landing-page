@@ -5,16 +5,11 @@ body {
     padding: 0;
 }
 
-.center {
-    display: flex;
-    flex-direction: column;
-}
-
 div {
     border: 1px solid black;
 }
 
-.hero {
+.hero-section {
     background-color: #1f2937;
     display: flex;
     flex-direction: column;
@@ -23,7 +18,7 @@ div {
 }
 
 .hero-child {
-    background-color: black;
+    background-color: #1f2937;
     max-width: 1080px;
 }
 
@@ -45,6 +40,7 @@ div {
     display: flex;
     flex: auto;
     padding: 2rem 0;
+    min-height: 25rem;
 }
 
 .hero-content div {
