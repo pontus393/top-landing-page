@@ -35,3 +35,18 @@ div {
     gap: 1rem;
 }
 
+.hero-content {
+    display: flex;
+    flex: auto;
+}
+
+.hero-content div {
+    flex: 1;
+}
+
+.hero-content .right {
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
