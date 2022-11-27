@@ -14,14 +14,17 @@ div {
     border: 1px solid black;
 }
 
-body > div {
-    padding: 0 100px;
-}
-
 .hero {
-    background-color: aquamarine;
+    background-color: #1f2937;
     display: flex;
     flex-direction: column;
+    color: #f9faf8;
+    align-items: center;
+}
+
+.hero-child {
+    background-color: black;
+    max-width: 1080px;
 }
 
 .header-wrapper {
@@ -41,6 +44,7 @@ body > div {
 .hero-content {
     display: flex;
     flex: auto;
+    padding: 2rem 0;
 }
 
 .hero-content div {
