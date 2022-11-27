@@ -34,6 +34,8 @@ div {
     margin: 0;
     display: flex;
     gap: 1rem;
+    color: #e5e7eb;
+    font-size: 18px;
 }
 
 .hero-content {
@@ -41,10 +43,37 @@ div {
     flex: auto;
     padding: 2rem 0;
     min-height: 25rem;
+    gap: 15px;
 }
 
 .hero-content div {
     flex: 1;
+}
+
+.hero-content .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-content .left h2 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    margin: 0;
+}
+
+.hero-content .left p {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.hero-content .left button {
+    background-color: #3882f6;
+    display: flex;
+    flex-grow: 0;
+    max-width: max-content;
+    padding: 5px 15px;
+    border-radius: 25px;
 }
 
 .hero-content .right {
