@@ -14,16 +14,23 @@ div {
     border: 1px solid black;
 }
 
+.hero {
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    padding: 0 100px;
+}
+
 .header-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 2rem;
 }
 
 .header-wrapper ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
     display: flex;
     gap: 1rem;
 }
