@@ -14,11 +14,14 @@ div {
     border: 1px solid black;
 }
 
+body > div {
+    padding: 0 100px;
+}
+
 .hero {
     background-color: aquamarine;
     display: flex;
     flex-direction: column;
-    padding: 0 100px;
 }
 
 .header-wrapper {
