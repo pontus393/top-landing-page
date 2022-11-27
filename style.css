@@ -4,6 +4,22 @@ body {
     flex-direction: column;
     padding: 0;
 }
+
 div {
     border: 1px solid black;
 }
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-wrapper ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+}
+
