@@ -88,13 +88,16 @@ body {
 /* Column section */
 
 
-.column-section {
+
+
+.column-section { 
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .column-child {
-    flex:1;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     max-width: 1080px;
