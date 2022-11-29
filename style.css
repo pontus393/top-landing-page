@@ -89,6 +89,7 @@ body {
 
 
 
+ 
 
 .column-section { 
     display: flex;
@@ -106,6 +107,13 @@ body {
 .box {
     flex: 1;
     max-width: 200px;
+}
+
+.img-container {
+    display: flex;
+    height: 100px;
+    width: 100px;
+    flex-shrink: 1;
 }
 
 * {
