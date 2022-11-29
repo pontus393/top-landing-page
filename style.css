@@ -125,10 +125,10 @@ body {
 /* Quote section */
 
 .quote-section {
-    border: 1px solid black;
     background-color: #e5e7eb;
     display: flex;
     justify-content: center;
+    padding: 80px 40px;
 }
 
 .quote-child {
@@ -140,4 +140,9 @@ body {
     font-style: italic;
     font-weight: light;
     color: #1f2937
+}
+
+.quote-name {
+    text-align: right;
+    font-weight: bold;
 }
