@@ -56,7 +56,7 @@ body {
 
 .hero-content .left h2 {
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: bold;
     margin: 0;
 }
 
@@ -97,6 +97,12 @@ body {
     align-items: center;
 }
 
+.column-section h2 {
+    font-size: 36px;
+    font-weight: bold;
+
+}
+
 .column-child {
     width: 100%;
     display: flex;
@@ -107,19 +113,13 @@ body {
 .box {
     flex: 1;
     max-width: 200px;
+    text-align: center;
 }
 
 .img-container {
     display: flex;
-    height: 100px;
-    width: 100px;
-    flex-shrink: 1;
-}
-
-* {
-    border: 1px solid black;
-}
-
-* {
-    border: 1px solid black;
+    flex: 1;
+    height: 150px;
+    border-radius: 15px;
+    border: 3px solid blue;
 }
