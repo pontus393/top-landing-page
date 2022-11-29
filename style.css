@@ -124,7 +124,13 @@ body {
 
 /* Quote section */
 
-.quote-section * {
+.quote-section {
     border: 1px solid black;
     background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
 }
+
+.quote-child {
+    max-width: 1080px;
+} 
