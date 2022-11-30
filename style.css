@@ -185,3 +185,14 @@ body {
     color: white;
     font-weight: bold;
 }
+
+/* Footer section */
+
+.footer-wrapper {
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: white;
+}
