@@ -162,4 +162,26 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #3882f6;
+    padding: 20px 80px;
+    border-radius: 12px;
+}
+
+.cta-child h2 {
+    color: white;
+}
+
+.cta-child p {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.cta-child button {
+    background-color: #3882f6;
+    max-width: max-content;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 3px solid white;
+    color: white;
+    font-weight: bold;
 }
