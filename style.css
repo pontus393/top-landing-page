@@ -147,3 +147,19 @@ body {
     text-align: right;
     font-weight: bold;
 }
+
+/* CTA section */
+
+.cta-section {
+    padding: 80px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.cta-child {
+    max-width: 1080px;
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
